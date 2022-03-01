@@ -4,8 +4,7 @@
 using namespace std;
 
 int main(){
-   int matA [2][2]={4, 8, 2, 10};
-   int matB [2][2]={-5, 4, 8, -12};
+   int matA [2][2]={2, 2, 2, 2};
    int J,K;
    cout<<"Matriks A"<<endl;
    for (int i=0;i<2;i++){
@@ -14,21 +13,12 @@ int main(){
        }
        cout<<endl;
    }
-   cout<<"Matriks B"<<endl;
-   for(int k=0; k<2; k++){
-       for(int l=0; l<2;l++){
-    cout<<matB[k][l]<<" ";
-       }
-       cout<<endl;
-   }
-   cout<<"Hasil Perkalian Eksponen 5 Matrik A dan B "<<endl;
+   cout<<"Hasil Perkalian Eksponen 5 Matrik A "<<endl;
    for (int m=0; m<2; m++){
        for (int n=0; n<2; n++){
-           cout<< pow(matA[m][n] * matB[m][n], 5) <<" ";
+           cout<< pow(matA[m][n] * matA[m][n], 5) <<" ";
        }
        cout<<endl;
    }
     return 0;
 }
-
-
