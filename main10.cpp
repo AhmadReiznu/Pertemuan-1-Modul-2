@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-   int matA [2][2]={1,2,3,4};
+   int matA [2][2]={4,8,2,10};
    
    cout<<"Matriks A"<<endl;
    for (int i=0;i<2;i++){
