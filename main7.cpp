@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-   int matA [2][2]={4, 3, 8, 10};
-   int matB [2][2]={-5, 8, 4, -12};
+   int matA [2][2]={4, 8, 2, 10};
+   int matB [2][2]={-5, 4, 8, -12};
    int J,K;
    cout<<"Matriks A"<<endl;
    for (int i=0;i<2;i++){
