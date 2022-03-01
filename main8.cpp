@@ -4,8 +4,8 @@
 using namespace std;
 
 int main(){
-   int matA [2][2]={2, 2, 2, 2};
-   int J,K;
+   int matA [2][2]={4, 8, 2, 10};
+   
    cout<<"Matriks A"<<endl;
    for (int i=0;i<2;i++){
        for(int j=0;j<2;j++){
